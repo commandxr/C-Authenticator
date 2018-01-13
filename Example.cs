@@ -1,6 +1,7 @@
 using System.Net;
+
 //Example from Bo
-private void EnterButton_Click(object sender, EventArgs e)
+private void Auth()
         {
             string website = "https://pastebin.com/raw/iEybt0TJ";
             string auth = (new WebClient()).DownloadString(website.ToString());
